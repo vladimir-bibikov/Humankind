@@ -38,6 +38,19 @@ a {
   color: #006450;
 }
 
+a:hover, .human a:hover {
+  opacity: 0.8;
+  color: #df7715;
+}
+
+button, a, .human a {
+  transition: all 0.4s linear;
+}
+
+button:hover {
+  background-color: #00C08B;
+}
+
 .human, .human a {
   color: #00C08B;
   text-align: center;
